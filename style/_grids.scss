@@ -1,0 +1,8 @@
+.sectionGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    
+      "foto   texto1"
+      "texto2  texto3";
+  }

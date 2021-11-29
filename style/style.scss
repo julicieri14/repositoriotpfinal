@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+body {
+  background-color: rgb(187, 6, 6);
+}
+
+.HeaderConfig {
+  position: fixed;
+  background-color: white;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.navConfig {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.ulConfig {
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: rgb(19, 15, 4);
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.liConfig {
+  width: 50%;
+  text-align: center;
+  margin-top: 10px;
+}
+.logo {
+  width: 200px;
+}
+
+.botonHamburguesa {
+  display: none;
+  font-size: 32px;
+  color: black;
+}
+
+ul {li {ul {
+  position: absolute;
+  display: none;
+  width: 100px;
+  height: 150px;
+  list-style: none;
+  }  
+ }
+}
+
+ul {li {ul {li {
+  height: 50px;
+  background-color: white;
+        }
+      }
+    }
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.tituloPrincipal {
+  position: absolute;
+  width: 20%;
+  margin: 12%;
+  top: 30%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgb(153, 52, 13);
+  grid-area: foto;
+  text-align: center  ;
+}
+
+.infoMision {
+  padding: 10px;
+  margin: 170px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;  
+  grid-area: texto1;
+  text-align: center;
+  border: black 5px groove ;
+  height: fit-content;
+}
+
+.infoReferencias {
+  padding: 2%;
+  margin: 2%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  border: 2px black groove;
+  grid-area: texto2;
+  text-align: center;
+}
+
+.infoNoticias {
+  padding: 2%;
+  margin: 2%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  border: 2px black groove;
+  grid-area: texto3;
+  text-align: center;
+}
+
+.sectionGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  
+    "foto   texto1"
+    "texto2  texto3";
+}
+
+footer {
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+
+  width: 100%;
+  height: 10vh;
+  font-size: 15px;
+}
+
+.InputSesion{
+  width: 98%;
+  height: 25%;
+  padding-top: 100px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.cajaInput{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
+  height: 185px;
+  
+}
+
+.footerIngreso{
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 102%;
+  height: 10vh;
+  font-size: 12px;
+  margin-top: 218px;
+}
+
+.footerStaff{
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 17vh;
+  font-size: 15px;
+  margin-top: 39px;
+}
+
+.infoStaff{
+  padding: 2%;
+  margin: 2%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  border: 2px black groove;
+  text-align: center;
+}
+
+
+
+.HeaderStaff {
+  position: sticky;
+  background-color: white;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.footerCoberturas{
+  padding: 3%;
+  width: 100%;
+  height: 10vh;
+  text-align: right;
+  background-color: white;
+  color: black;  
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+.InputCotizacion{
+  
+  padding-top: 100px;
+  box-sizing: 50%;
+  align-items: center;
+}
+
+.footerContacto{
+  padding: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 10vh;
+  font-size: 15px;
+  margin-top: 130px;
+}
